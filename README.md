@@ -38,7 +38,7 @@ When server.py is running the feed can be vied from any broswer via the followin
     ```
     sudo apt-get install python3-picamera
     ```
-4. Install pip to handle loading Pyhton pckages not avaiable in the Raspberry Pi OS archives
+4. Install pip to handle loading Python pckages not avaiable in the Raspberry Pi OS archives
     ```
     sudo apt install python3-pip
     ```
