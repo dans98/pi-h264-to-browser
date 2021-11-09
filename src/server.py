@@ -102,6 +102,9 @@ class wsHandler(tornado.websocket.WebSocketHandler):
             except tornado.iostream.StreamClosedError:
                 pass
 
+    def check_origin(self, origin):
+        return True
+
 class indexHandler(tornado.web.RequestHandler):
     def get(self):
         self.write(indexHtml)
